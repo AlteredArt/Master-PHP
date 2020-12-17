@@ -15,7 +15,7 @@
     echo "<p>$coolcat is sleeping</p>";
     echo "<p>$coolcat is $coolcatAge years old.</p>"
     // data types are numbers , strings
-
+    // Scalar types?
 
     ?>
 </body>
