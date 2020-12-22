@@ -17,6 +17,7 @@
     // data types are numbers , strings
     // Scalar types?
     //get this php to work
+    //you will get to it eventually
 
     ?>
 </body>
