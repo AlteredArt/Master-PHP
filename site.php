@@ -18,6 +18,7 @@
     // Scalar types?
     //get this php to work
     //you will get to it eventually
+    //what is even going on
 
     ?>
 </body>
