@@ -17,11 +17,9 @@
     echo "<p>$coolcat is $coolcatAge years old.</p>"
     // data types are numbers , strings
     // Scalar types?
-    //get this php to work
-    //you will get to it eventually
-    //what is even going on
+    
     //put into seperate folder.
-
+    //start server is in read me.
     ?>
 </body>
 </html>
