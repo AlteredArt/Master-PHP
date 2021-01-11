@@ -23,6 +23,11 @@ ini_set("display_errors", 1);
         echo "<p>$coolcat is $coolcatAge years old.</p>";
         echo str_replace("les", "ies", $bosscat);
         echo substr($coolcat, 0, 3);
+        echo strtoupper("MEEOWWWWW");
+        echo strlen($coolcat);
+        echo $coolcat[2];
+        $coolcat[0] = "c";
+        echo $coolcat;
     ?>
 
  

@@ -9,3 +9,6 @@ php -S localhost:4000
 
 
 add /file name to end of domain
+
+
+has to be index . php
