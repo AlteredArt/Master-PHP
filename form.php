@@ -14,7 +14,7 @@
 </form>
 
 
-<?php 
+You're name is: <?php 
     echo $_GET["name"]
     
     
