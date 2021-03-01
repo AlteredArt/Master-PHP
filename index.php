@@ -63,9 +63,20 @@ ini_set("display_errors", 1);
     // comparison
         echo max(12, 24);
         echo "</br>";
-        echo min (10 , 7);
+        echo min(10 , 7);
         echo "</br>";
-        echo "hello round(3.7)";
+        echo "hello" + round(3.7);
+    ?>
+    <br>
+    <!-- arrays -->
+    <?php 
+        $friends = array("Waffles", "Chloe", "Tom", "Elliot");
+        $friends[3] = "Daisy";
+        $friends[4] = "Comanche";
+        echo $friends[3];
+        echo $friends;
+        echo count($friends);
+    
     ?>
 
 
