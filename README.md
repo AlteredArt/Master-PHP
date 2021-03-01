@@ -12,3 +12,4 @@ add /file name to end of domain
 
 
 has to be index . php
+fin out what is going on here
