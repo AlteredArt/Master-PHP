@@ -1,4 +1,7 @@
 <!-- // error reporting -->
+<!-- \n for a new line -->
+<!-- \\ for a backspace -->
+<!-- \$ for a dollar sign -->
 <?php 
 error_reporting(E_ALL);
 ini_set("display_errors", 1);
@@ -23,6 +26,12 @@ ini_set("display_errors", 1);
         $coolcatAge = 6;
     // Echo with variables
         echo "<h1>Hello this is $bosscat</h1>";
+        echo '<h1>Hello this is $bosscat</h1>';
+    // Concatenation
+        echo 'Hello concatenation, ' . $coolcat . '!'; 
+    // Escape quotes    
+        echo 'Hello\'s concatenation, '  . $coolcat . '!'; 
+       
         echo "<hr>";
         echo "<p>$coolcat is sleeping</p>";
         echo "<p>$coolcat is $coolcatAge years old.</p>";
