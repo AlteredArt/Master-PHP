@@ -1,7 +1,10 @@
+<!-- // error reporting -->
 <?php 
 error_reporting(E_ALL);
 ini_set("display_errors", 1);
 ?>
+<!-- // error reporting end -->
+ 
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -13,20 +16,26 @@ ini_set("display_errors", 1);
     <h1>Php</h1>
    
     <?php
-     //strings
+        echo '<h1>Variables & Strings</h1>';
+    //  Variables & Strings
         $bosscat = "Waffles";
         $coolcat = "Chloe";
         $coolcatAge = 6;
+    // Echo with variables
         echo "<h1>Hello this is $bosscat</h1>";
         echo "<hr>";
         echo "<p>$coolcat is sleeping</p>";
         echo "<p>$coolcat is $coolcatAge years old.</p>";
-        ?>
+    // Constant Variables (Case Sensitive, Immutable) 
+        define('Money', 5);
+        echo Money;
+    ?>
 
+    <p><?php echo 'outside works'; ?></p>
 
-        test
+       
 
-        <?php
+    <?php
         echo str_replace("les", "ies", $bosscat);
         echo "</br>";
         echo "<p>";
@@ -65,18 +74,18 @@ ini_set("display_errors", 1);
         echo "</br>";
         echo min(10 , 7);
         echo "</br>";
-        echo "hello" + round(3.7);
+        // echo "hello" + round(3.7);
     ?>
     <br>
+
     <!-- arrays -->
     <?php 
         $friends = array("Waffles", "Chloe", "Tom", "Elliot");
         $friends[3] = "Daisy";
         $friends[4] = "Comanche";
         echo $friends[3];
-        echo $friends;
-        echo count($friends);
-    
+        // echo $friends;
+        echo count($friends); 
     ?>
 
 
