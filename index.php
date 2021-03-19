@@ -2,6 +2,7 @@
 <!-- \n for a new line -->
 <!-- \\ for a backspace -->
 <!-- \$ for a dollar sign -->
+<!-- \t for tab  -->
 <?php 
 error_reporting(E_ALL);
 ini_set("display_errors", 1);
@@ -28,9 +29,10 @@ ini_set("display_errors", 1);
         echo "<h1>Hello this is $bosscat</h1>";
         echo '<h1>Hello this is $bosscat</h1>';
     // Concatenation
-        echo 'Hello concatenation, ' . $coolcat . '!'; 
+        echo '<p>Hello concatenation, ' . $coolcat . '!</p>'; 
+        
     // Escape quotes    
-        echo 'Hello\'s concatenation, '  . $coolcat . '!'; 
+        echo "Hello\'s concatenation, "  . $coolcat . '!'; 
        
         echo "<hr>";
         echo "<p>$coolcat is sleeping</p>";
@@ -88,6 +90,8 @@ ini_set("display_errors", 1);
     <br>
 
     <!-- arrays -->
+    <!-- Indexable Arrays (numbered keys) -->
+    <!-- Associative Arrays (strings as keys, key-value pair) -->
     <?php 
         $friends = array("Waffles", "Chloe", "Tom", "Elliot");
         $friends[3] = "Daisy";
