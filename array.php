@@ -15,8 +15,10 @@
 <?php 
     $grades = array("Jim"=>"A+", "Pam"=>"B-", "Oscar"=>"C+");
     echo $grades[$_POST["student"]];
+?>
 
-
+<?php 
+    
 ?>
     
 </body>
