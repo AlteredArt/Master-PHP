@@ -25,6 +25,18 @@
         $cubeResult = cube(4);
         echo $cubeResult;
     ?>
+	
+	<?php 
+		function is_palindrone ($string){
+			$string = str_replace('','', strtolower($string));
+			return ($string == strrev($string));
+		}
+	
+	$check_string = 'Race Car';
+	if( is_palindrone($check_string)) {
+		echo "<p>$check_string is a palindrone</p>";
+	}
+	?>
     
 </body>
 </html>

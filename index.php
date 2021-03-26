@@ -156,9 +156,15 @@ ini_set("display_errors", 1);
 
         $logic = array($a, $b, $c, $d, $e, $f);
         echo '<pre>';
-        print_r($logic);
+        var_dump($logic);
         echo '</pre>';
 
+        $c = $a and $b;
+        var_dump($c);
+
+        // ^ XOR (evaluates to the opposite)
+        
+ 
 
     ?>
 
