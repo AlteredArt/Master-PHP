@@ -26,3 +26,6 @@ add /file name to end of domain
 
 has to be index . php
 fin out what is going on here
+
+php.ini file??????? Where to find it
+learn more about sessions
