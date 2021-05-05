@@ -24,5 +24,4 @@
 	//	$name = isset($name) ? $name : " Joe";
 	//	echo $name;
 	// $name = $name ?: 'Joe';
-
-
+?>

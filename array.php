@@ -12,16 +12,13 @@
         <input type="submit">
     </form>
 
-<?php 
-    $grades = array("Jim"=>"A+", "Pam"=>"B-", "Oscar"=>"C+");
-    echo $grades[$_POST["student"]];
-?>
+    <?php 
+        $grades = array("Jim"=>"A+", "Pam"=>"B-", "Oscar"=>"C+");
+        echo $grades[$_POST["student"]];
+    ?>
 
-<?php 
-    
-?>
+    <!-- arrays -->
 
-<!-- arrays -->
     <!-- Indexable Arrays (numbered keys) -->
     <?php 
         $colors = array('red', 'blue', 'green');
@@ -32,6 +29,7 @@
         // Add to array
         $colors[] = 'yellow';
     ?>
+
     <!-- second example -->
     <?php 
         $friends = array("Waffles", "Chloe", "Tom", "Elliot");
