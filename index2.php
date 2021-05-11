@@ -17,7 +17,7 @@ ini_set("display_errors", 1);
     <title>Document</title>
 </head>
 <body>
-    <h1>Php</h1>
+    <h1>You can have HTML outside PHP</h1>
    
     <?php
         echo '<h1>Variables & Strings</h1>';
