@@ -1,33 +1,27 @@
-<!doctype html>
-<html>
-<head>
-<meta charset="UTF-8">
-<title>Ternary</title>
-</head>
+<?php 
 
-<body>
-<!--	Long Hand-->
-<!--
-	<?php
-		$is_logged_in = true;
-		if ( $is_logged_in) {
-			$message = "welcome Back!";
-		} else {
-			$message = "Hello There!";
-		}
-	?>
--->
+	// Arithmetic
+	$x = -10;
+	$y = 2;
+	// EXPONENTIATION
+	 var_dump($x ** $y)
+
+
+	//  LONG HAND TERNARY
+	// $is_logged_in = true;
+	// if ( $is_logged_in) {
+	// 	$message = "welcome Back!";
+	// } else {
+	// 	$message = "Hello There!";
+	// }
+
+	// SHORT HAND TERNARY
+	// $is_logged_in = true;
+	// $name = ' Alice';
+	// 	$message = "Welcome" . ($is_logged_in ? " back!" : "!");
+	// 	echo $message;
 	
-<!--	Short Hand-->
-	<?php 
-		$is_logged_in = true;
-	$name = ' Alice';
-		$message = "Welcome" . ($is_logged_in ? " back!" : "!");
-		echo $message;
-	
-//	$name = isset($name) ? $name : " Joe";
-//	echo $name;
-	$name = $name ?: 'Joe';
-	?>
-</body>
-</html>
+	//	$name = isset($name) ? $name : " Joe";
+	//	echo $name;
+	// $name = $name ?: 'Joe';
+?>

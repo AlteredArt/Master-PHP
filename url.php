@@ -10,15 +10,12 @@
         Name: <input type='text' name="name"><br>
         Age: <input type="number" name="age"><br>
         Password: <input type="password" name='password'><br>
-
         <input type="submit">
-
     </form>
     <br><br>
 
 
     <?php 
-
         echo $_POST["name"];
         echo $_POST["age"];
         echo $_POST["password"];

@@ -15,14 +15,16 @@ Predefined Constants can't be used:
 string
 integer
 
-
-
 Start a server
 php -S localhost:4000
 
-
 add /file name to end of domain
-
 
 has to be index . php
 fin out what is going on here
+
+php.ini file??????? Where to find it
+learn more about sessions
+
+
+git the right link to gale 
