@@ -25,3 +25,6 @@ fin out what is going on here
 
 php.ini file??????? Where to find it
 learn more about sessions
+
+
+git the right link to gale 

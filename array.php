@@ -6,7 +6,7 @@
     <title>Grades</title>
 </head>
 <body>
-
+    <!-- arrays -->
     <form action="array.php" method="post">
         <input type="text" name="student">
         <input type="submit">
@@ -16,7 +16,6 @@
         $grades = array("Jim"=>"A+", "Pam"=>"B-", "Oscar"=>"C+");
         echo $grades[$_POST["student"]];
     ?>
-
     <!-- arrays -->
 
     <!-- Indexable Arrays (numbered keys) -->
@@ -74,6 +73,6 @@
         echo '</pre>';
         echo '<p>' . $cats['Waffles']['sleepy'] . '</p>';
     ?>
-    
-</body>
+        
+    </body>
 </html>
