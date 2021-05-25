@@ -1,14 +1,9 @@
-<!-- // error reporting -->
+
 <!-- \n for a new line -->
 <!-- \\ for a backspace -->
 <!-- \$ for a dollar sign -->
 <!-- \t for tab  -->
-<?php 
-error_reporting(E_ALL);
-ini_set("display_errors", 1);
-?>
-<!-- // error reporting end -->
- 
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -30,10 +25,8 @@ ini_set("display_errors", 1);
         echo '<h1>Hello this is $bosscat</h1>';
     // Concatenation
         echo '<p>Hello concatenation, ' . $coolcat . '!</p>'; 
-        
     // Escape quotes    
         echo "Hello\'s concatenation, "  . $coolcat . '!'; 
-       
         echo "<hr>";
         echo "<p>$coolcat is sleeping</p>";
         echo "<p>$coolcat is $coolcatAge years old.</p>";
@@ -43,8 +36,6 @@ ini_set("display_errors", 1);
     ?>
 
     <p><?php echo 'outside works'; ?></p>
-
-       
 
     <?php
         echo str_replace("les", "ies", $bosscat);
@@ -58,36 +49,35 @@ ini_set("display_errors", 1);
         $coolcat[0] = "c";
         echo $coolcat;
     ?>
-
  
     <?php
-   //numbers
-        $num = 22;
-    //explicit whole number / integer
-        echo 40;
-    //decimal float
-        echo 40.6;
-        echo "</br>";
-    //math
-        echo (4+5) * 10;
-        echo "</br>";
-        echo $num + $num;
-        echo "</br>";
-        echo $num *= $num;
-        echo "</br>";
-    //powers
-        echo pow(2, 4);
-        echo "</br>";
-        echo sqrt(122);
-        echo "</br>";
-    // comparison
-        echo max(12, 24);
-        echo "</br>";
-        echo min(10 , 7);
-        echo "</br>";
-        // echo "hello" + round(3.7);
-    ?>
-    <br>
+    //numbers
+            $num = 22;
+        //explicit whole number / integer
+            echo 40;
+        //decimal float
+            echo 40.6;
+            echo "</br>";
+        //math
+            echo (4+5) * 10;
+            echo "</br>";
+            echo $num + $num;
+            echo "</br>";
+            echo $num *= $num;
+            echo "</br>";
+        //powers
+            echo pow(2, 4);
+            echo "</br>";
+            echo sqrt(122);
+            echo "</br>";
+        // comparison
+            echo max(12, 24);
+            echo "</br>";
+            echo min(10 , 7);
+            echo "</br>";
+            // echo "hello" + round(3.7);
+        ?>
+        <br>
 
     
 
@@ -108,11 +98,17 @@ ini_set("display_errors", 1);
         $c = $a and $b;
         var_dump($c);
 
-        // ^ XOR (evaluates to the opposite)
-        
- 
+        // ^ XOR (evaluates to the opposite)checkout
 
     ?>
+
+    <!-- // error reporting -->
+<?php 
+error_reporting(E_ALL);
+ini_set("display_errors", 1);
+?>
+<!-- // error reporting end -->
+ 
 
 
 </body>
