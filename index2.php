@@ -1,9 +1,3 @@
-
-<!-- \n for a new line -->
-<!-- \\ for a backspace -->
-<!-- \$ for a dollar sign -->
-<!-- \t for tab  -->
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -113,3 +107,9 @@ ini_set("display_errors", 1);
 
 </body>
 </html>
+
+
+<!-- \n for a new line -->
+<!-- \\ for a backspace -->
+<!-- \$ for a dollar sign -->
+<!-- \t for tab  -->
