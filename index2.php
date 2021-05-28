@@ -1,14 +1,3 @@
-<!-- // error reporting -->
-<!-- \n for a new line -->
-<!-- \\ for a backspace -->
-<!-- \$ for a dollar sign -->
-<!-- \t for tab  -->
-<?php 
-error_reporting(E_ALL);
-ini_set("display_errors", 1);
-?>
-<!-- // error reporting end -->
- 
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -103,10 +92,24 @@ ini_set("display_errors", 1);
         $c = $a and $b;
         var_dump($c);
 
-        // ^ XOR (evaluates to the opposite)
+        // ^ XOR (evaluates to the opposite)checkout
 
     ?>
+
+    <!-- // error reporting -->
+<?php 
+error_reporting(E_ALL);
+ini_set("display_errors", 1);
+?>
+<!-- // error reporting end -->
+ 
 
 
 </body>
 </html>
+
+
+<!-- \n for a new line -->
+<!-- \\ for a backspace -->
+<!-- \$ for a dollar sign -->
+<!-- \t for tab  -->
