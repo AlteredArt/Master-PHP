@@ -28,3 +28,5 @@ learn more about sessions
 
 
 git the right link to gale 
+
+Go through an organize this shit.
