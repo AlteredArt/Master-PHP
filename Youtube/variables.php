@@ -8,6 +8,7 @@
 // echo('another way to call echo');
 // echo 'Hello', '', 'World';
 // Names are case sensitive in PHP, Convention is capital names.
+// You can also call php in html echo '<p>' . $x . ',' . $y . '</p>';
 
 // Flow Convention
 $x = 12;
