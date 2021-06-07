@@ -35,4 +35,44 @@
 <!-- * : {0,} => zero or more -->
 <!-- ? : {0,1} => zero or more -->
 <!-- + : {1,} => one or more -->
+
+<!-- Anchors (Match Position) -->
+<!-- ^ : matches the beginning of text -->
+<!-- $ : matches the end of text -->
+
+<!-- Regex Compatible Functions -->
+<!-- preg_match -->
+<!-- preg_match_all -->
+<!-- preg_replace -->
+<!-- preg_split -->
+<!-- preg_quote -->
+<!-- preg_filter -->
+
 <?php 
+function validateEmail ($text) {
+    $emailPattern = "/^([a-zA-Z0-9])+([a-zA-Z0-9\._-])*@([a-zA-Z0-9_-])+([a-zA-Z0-9\._-]+)+$";
+
+    if( preg_match($emailPattern, $text)) {
+        return true;
+    }
+    return false;
+}
+
+var_dump(validateEmail)('user@yahoo.com'));
+var_dump(validateEmail)('hahahaha'));
+
+
+
+
+
+function numberValidation ($text) {
+    $numberPattern = '/\d/';
+
+    if (preg_match($numberPattern, $text)) {
+        return true;
+    }
+    return false;
+}
+
+var_dump(validateNumber('12345'));
+var_dump(validateNumber('this is not a number'));
