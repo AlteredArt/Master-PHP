@@ -1,5 +1,5 @@
 <!-- This tag is best used for only a single line of code -->
-<?=
+<?php
 // Php is a server side language and only shows the compiled mock up
 // Echo along with single or double quotes is used to print something to the screen.
 // Print returns a value, and can be used inside expressions.
@@ -46,3 +46,19 @@ echo $x . ',' . $y;
 
 const STATUS_PAID = 'paid';
 echo STATUS_PAID;
+
+if (true) {
+    const FOO = 'bar';
+
+    define('STATUS_PAID', 9);
+}
+
+// PHP Defined Constant
+echo PHP_VERSION;
+
+// Variable Variable (More Dynamic)
+$foo = 'bar';
+$$foo = 'baz';
+$bar = 'baz';
+echo $foo , $$foo;
+echo "$foo , ${$foo}";
