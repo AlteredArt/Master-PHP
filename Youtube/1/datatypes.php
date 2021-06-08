@@ -30,6 +30,10 @@ var_dump($completed);
 
 // Compound Types
 // Array
+$companies = [1,2,3,0.5, -9.2, 'hello', true];
+// echo $companies will fail because the compiler doesn't know how to turn an array into a string.
+print_r($companies);
+
 // Object
 // Callable
 // Iterable
@@ -37,3 +41,34 @@ var_dump($completed);
 #2 Special Types
 // Resource
 // Null
+
+// Type Juggling or Type Coercion: Example of strict variables
+// Type Hinting: EX: Sum 2 var and return the value
+function sum(int $x, int $y) {
+    $x = 5.5;
+    var_dump($x + $y);
+    echo '<br />';
+    return $x + $y;
+}
+// Trying to add an integer to a string
+$sum = sum(2,'3');
+echo $sum . '<br />';
+var_dump($sum);
+// $x = 5.5
+
+
+// Strict Mode
+declare(strict_types=1);
+
+function sum(float $x, int $y) {
+    return $x + $y;
+}
+$sum = sum(2.5,3);
+echo $sum . '<br />';
+var_dump($sum);
+// $x = 5.5
+
+
+// Type Casting
+$t = (int) '5';
+var_dump($t);
