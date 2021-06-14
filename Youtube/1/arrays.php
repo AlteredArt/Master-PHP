@@ -27,4 +27,25 @@ $programmingLanguages[] = 'C==';
 // Array Push
 array_push($programmingLanguages, 'love', 'C', 'Go');
 // Keys are strings or integers
-// Named keys in an array are referred too, as 
+
+// Associated array
+// Named keys in an array are referred too, associative array
+$newLanguages = [
+    'php' => [
+        'creator' => 'Waffles',
+        'maker' => 'Chloe',
+        'versions' => [
+            ['version' => 3.9, 'releaseDate' => 'Oct 5, 2020'];
+        ]
+    ],
+    'python' => '3.9'
+];
+
+$addedLanguage = 'Android';
+$newLanguages[$addedLanguage] = '1.15';
+
+echo $newLanguage['php']['creator'][0][releaseDate];
+
+echo '<pre>';
+print_r($newLanguages);
+echo '</pre>';
