@@ -33,6 +33,43 @@ $words .= 'World';
 <> : loose inequality
 < > : Greater than less than
 <==> : Spaceship operator, combines greater than , less than, equal signs
-?? :
+?? : ternary operators
 ?: :
+
+// Strict Comparison
+$x = 'Hello World';
+$y = strpos($x, 'H');
+
+if($y === false) {
+    echo 'H not found';
+} else {
+    echo 'H Found at index' . $y;
+};
+
+// Ternary Operator (Expects 3 values)
+$a = 'Meow';
+$b = 'Chloe';
+
+$result = $b === false ? 'H Not Found' : 'H Found at index' . $y;
+
+
+// No Coalescing operator
+$c = null
+$d = $c ?? 'hello';
+
+// Error Control (@)
+$f = @file('file.txt');
+
+// Increment & Decrement (++, --) )nly works with numbers and strings.
+$x = 5
+// Inc / Dec after the fact
+$x++
+$x--
+// Pre Inc / Dec
+++$x
+--$x 
+// String Inc
+$word = 'abc';
+echo ++$word;
+// 'abd'
 
